@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivina el Número</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juego de Adivina el Número</h1>
+        <div class="game-info">
+            <p id="attempts">Intentos restantes: <span id="attemptsCount">5</span></p>
+            <p id="message">Ingresa un número entre 1 y 100:</p>
+            <input type="number" id="guessInput" min="1" max="100" />
+            <button id="guessButton">Adivinar</button>
+        </div>
+        <div class="result-container">
+            <p id="resultMessage"></p>
+        </div>
+    </div>
+    <div class="ads-container">
+        <!-- Espacio para anuncios -->
+        <iframe src="https://www.example-ad-network.com/ad" frameborder="0" width="300" height="250"></iframe>
+    </div>
+    <script src="model.js"></script>
+    <script src="view.js"></script>
+    <script src="controller.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
